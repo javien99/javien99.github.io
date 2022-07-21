@@ -1,0 +1,9 @@
+body{  background-color: orange;
+
+}
+.main-container{
+  background-color: white;
+  padding: 25px;
+  border: 2px solid black;
+  box-shadow: 5px 5px 5px 5px black
+}
