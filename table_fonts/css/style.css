@@ -8,17 +8,33 @@ margin;0;
 
 
 header {
-  background-color: purple;
+  background-color:red;
+  color: white;
   padding:30px;
   font-family:"Bebas Neue" ,sans-serif;
 }
 
 table {
   font-family: "Bebas Neue", sans-serif;
+  width: 80%;
+  margin: auto;
+}
+th{
+  background-color: red;
+  color: white;
+  text-align: left;
+  font-size: 16pt;
+}
+tr:hover {
+  background: green;
+  color: yellow;
 }
 
 td{
+  border: 2px black;
 
 }
 
-th
+th,td {
+  padding:5px;
+}
