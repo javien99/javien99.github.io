@@ -1,40 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-body {
-margin;0;
+
+
+  body {
+    background-color:gray;
+    color:white;
+    margin:0;
+    box-sizing: border-box;
+    font-family: DSnet Stamped;
+    font-size:50px;
 
 }
 
+nav{
+  width: 25%;
+
+}
+nav li{
+  list-style-type: none;
+  padding-bottom: 100px;
+
+}
+
+nav ul{
+
+}
+
+nav a{
+color: white;
+text-decoration: none;
+}
 
 
 header {
-  background-color:red;
-  color: white;
-  padding:30px;
-  font-family:"Bebas Neue" ,sans-serif;
+  text-align: center;
+  font-family: DSnet Stamped;
 }
 
-table {
-  font-family: "Bebas Neue", sans-serif;
-  width: 80%;
-  margin: auto;
-}
-th{
-  background-color: red;
-  color: white;
-  text-align: left;
-  font-size: 16pt;
-}
-tr:hover {
-  background: green;
-  color: yellow;
-}
-
-td{
-  border: 2px black;
+main{
+  display: flex;
 
 }
 
-th,td {
-  padding:5px;
+.maincontent{
+  width: 75%;
+  font-family: Bebas Neue;
+  font-size: 30px;
+}
+
+.maincontent img{
+  width: 100%;
 }
