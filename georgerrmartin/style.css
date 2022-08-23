@@ -1,0 +1,98 @@
+body {
+  background-color: black;
+  color: white;
+  margin:0;
+  box-sizing: border-box;
+  font-family: Augusta;
+  font-size:30px;
+  background-image: url("./assets/knight.png");
+  background-size: cover;
+  div.lionlogo{
+    width: 20%;
+  }
+
+
+
+
+
+}
+
+nav{
+width: 100%;
+
+}
+nav li{
+list-style-type: none;
+padding: 50px;
+font-size: 25px;
+
+
+
+}
+
+nav ul{
+display: flex;
+justify-content: center;
+
+
+
+}
+
+nav a{
+color: white;
+text-decoration: none;
+}
+
+
+header {
+text-align: center;
+font-family: Augusta;
+
+
+
+}
+
+}
+
+img {
+  width: 100%;
+
+}
+
+
+div.mainheader1 {
+  display: flex;
+  justify-content: center;
+
+}
+div.paragraph1{
+  font-family: dealerplate;
+  font-size: 20px;
+}
+div.paragraph2{
+  font-family: dealerplate;
+  font-size: 20px;
+}
+div.paragraph3{
+  font-family: dealerplate;
+  font-size: 20px;
+}
+div.paragraph4{
+  font-family: dealerplate;
+  font-size: 20px;
+}
+div.paragraph5{
+  font-family: dealerplate;
+  font-size: 20px;
+}
+div.paragraph6{
+  font-family: dealerplate;
+  font-size: 20px;
+}
+div.mainheader1{
+  font-family: helvetica;
+  font-size: 50px;
+}
+main{
+  background-color: rgba(0, 0, 0, 0.5);
+}
