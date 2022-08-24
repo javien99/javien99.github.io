@@ -7,7 +7,7 @@ body {
   font-size:30px;
   background-image: url("./assets/knight.png");
   background-size: cover;
-  
+
 
 
 
@@ -45,6 +45,8 @@ text-decoration: none;
 header {
 text-align: center;
 font-family: Augusta;
+display: flex;
+
 
 
 
@@ -56,6 +58,7 @@ img {
   width: 100%;
 
 }
+
 
 
 div.mainheader1 {
@@ -93,4 +96,7 @@ div.mainheader1{
 }
 main{
   background-color: rgba(0, 0, 0, 0.5);
+}
+div.headertop{
+  width: 50%;
 }
