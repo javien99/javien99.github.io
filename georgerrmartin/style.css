@@ -1,19 +1,15 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+body{
   background-color: black;
   color: white;
   margin:0;
   box-sizing: border-box;
-  font-family: Augusta;
   font-size:30px;
   background-image: url("./assets/knight.png");
   background-size: cover;
 
-
-
-
-
-
 }
+
 
 nav{
 width: 100%;
@@ -42,30 +38,45 @@ text-decoration: none;
 }
 
 
+
 header {
 text-align: center;
-font-family: Augusta;
+font-family:'Cinzel', serif;
 display: flex;
 flex-direction: column;
+color: white;
+
 
 }
 
 div.headertop{
-  display: flex;
+  width: 100%
+  display:flex;
+  justify-content: space-between;
+
+}
+.headerimg img {
   width: 100%;
-
-}
-div.headertop img{
-  width: 50%;
-}
-div.headeritem {
-  width: 50%;
 }
 
-img {
+.headerimg {
+  width:20%;
+}
+.headeritem {
+  width:20%;
+}
+.header-text {
   width: 100%;
-
+  text-align: center;
 }
+
+
+div.headerblog {
+  font-size: 80px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
 
 
 
@@ -77,34 +88,35 @@ div.mainheader1 {
 div.paragraph1{
   font-family: dealerplate;
   font-size: 20px;
+  color: white;
 }
 div.paragraph2{
   font-family: dealerplate;
   font-size: 20px;
+  color: white;
 }
 div.paragraph3{
   font-family: dealerplate;
   font-size: 20px;
+  color: white;
 }
 div.paragraph4{
   font-family: dealerplate;
   font-size: 20px;
+  color: white;
 }
 div.paragraph5{
   font-family: dealerplate;
   font-size: 20px;
+  color: white;
 }
 div.paragraph6{
   font-family: dealerplate;
   font-size: 20px;
+  color: white;
 }
-div.mainheader1{
-  font-family: helvetica;
-  font-size: 50px;
-}
+
+
 main{
   background-color: rgba(0, 0, 0, 0.5);
-}
-div.headertop{
-  width: 50%;
 }
