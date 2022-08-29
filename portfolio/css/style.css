@@ -6,25 +6,30 @@
     color:white;
     margin:0;
     box-sizing: border-box;
-    font-family: DSnet Stamped;
+    font-family: Verve;
     font-size:50px;
-    
+
 
 }
 
 nav{
   width: 25%;
 
+
 }
 nav li{
   list-style-type: none;
   padding-bottom: 100px;
+  
 
 }
 
 nav ul{
 
 }
+
+
+
 
 nav a{
 color: white;
@@ -34,7 +39,7 @@ text-decoration: none;
 
 header {
   text-align: center;
-  font-family: DSnet Stamped;
+  font-family: Verve;
 }
 
 main{
@@ -44,10 +49,15 @@ main{
 
 .maincontent{
   width: 75%;
-  font-family: Bebas Neue;
+  font-family: Verve;
   font-size: 30px;
 }
 
 .maincontent img{
   width: 100%;
+}
+
+div.about{
+  font-size: 25px;
+
 }
