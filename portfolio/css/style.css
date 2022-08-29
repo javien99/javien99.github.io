@@ -1,13 +1,13 @@
 @font-face {
   font-family: "Verve";
   src: url("../assets23/Verve.ttf")
-       url("../assets23/Verve.ttf") 
+       url("../assets23/Verve.ttf")
 }
 
 
   body {
-    background-color:gray;
-    color:white;
+    background-color:white;
+    color:red;
     margin:0;
     box-sizing: border-box;
     font-family: Verve;
@@ -36,7 +36,7 @@ nav ul{
 
 
 nav a{
-color: white;
+color: black;
 text-decoration: none;
 }
 
@@ -48,6 +48,7 @@ header {
 
 main{
   display: flex;
+  width: 90%;
 
 }
 
@@ -55,13 +56,28 @@ main{
   width: 75%;
   font-family: Verve;
   font-size: 30px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
 }
 
 .maincontent img{
   width: 100%;
 }
+div.head{
+  font-size: 100px;
+  width: 80%;
+  margin: auto;
+  margin-top: 20%;
+  text-align: center;
+
+}
 
 div.about{
-  font-size: 25px;
+  font-size: 50px;
+  width: 80%;
+  margin: auto;
+  margin-top: 20%;
+  text-align: center;
 
 }
