@@ -1,4 +1,8 @@
-
+@font-face {
+  font-family: "Verve";
+  src: url("../assets23/Verve.ttf")
+       url("../assets23/Verve.ttf") 
+}
 
 
   body {
@@ -20,7 +24,7 @@ nav{
 nav li{
   list-style-type: none;
   padding-bottom: 100px;
-  
+
 
 }
 
