@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: "Verve";
   src: url("../assets23/Verve.ttf")
@@ -6,8 +7,10 @@
 
 
   body {
-    background-color:white;
-    color:red;
+    background-image: url(../assets23/blur.png);
+    background-size: cover;
+    background-position: center;
+    color:white;
     margin:0;
     box-sizing: border-box;
     font-family: Verve;
@@ -24,6 +27,7 @@ nav{
 nav li{
   list-style-type: none;
   padding-bottom: 100px;
+  
 
 
 }
@@ -36,7 +40,7 @@ nav ul{
 
 
 nav a{
-color: black;
+color: white;
 text-decoration: none;
 }
 
@@ -53,12 +57,12 @@ main{
 }
 
 .maincontent{
-  width: 75%;
+  width: 150%;
   font-family: Verve;
   font-size: 30px;
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-gap: 20px;
+  grid-gap: 30px;
 }
 
 .maincontent img{
@@ -78,6 +82,12 @@ div.about{
   width: 80%;
   margin: auto;
   margin-top: 20%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+footer{
+  border-style: solid;
   text-align: center;
 
 }
