@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 body{
   margin: 0;
   font-family: "Montserrat";
+
 }
 #main_page{
-  margin: 5%;
   box-sizing: border-box;
   width: 90%;
-  border: 5px solid #e1a177;
+  border: 5px solid;
   margin: 5% auto;
 }
 
@@ -16,29 +17,47 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
+background-color: #6699cc;
 
 }
 .header_left{
-  font-family: "Lobster"
+  font-family: "Lobster";
+  font-size: 100px;
+  margin: 20px;
 }
 
 .header_right img{
   width: 100%;
 }
 
+nav{
+  border-top: 2.5px solid black;
+  border-bottom: 2.5px solid black;
+  position: sticky;
+  top: 0px;
+}
+
 nav ul{
   display: flex;
-  margin: 0;
+  margin: 20px;
+  padding: 0;
   padding-left: 0;
+  justify-content: space-between;
+  margin: 0 auto;
 
 }
 nav li{
   list-style-type: none;
+  text-align: center;
 }
 
 nav a{
   text-decoration: none;
   color: #e1a177;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 main{
@@ -48,6 +67,10 @@ main{
 
 footer{
   display: flex;
+  background-color: white;
+  color: #e1a177;
+  border-radius: 0px 0px 10px 10px;
+  flex-direction: column;
 
 }
 
@@ -61,6 +84,11 @@ footer{
 
 .footer_center{
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background-color: white;
 
 }
 
