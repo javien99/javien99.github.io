@@ -1,0 +1,82 @@
+
+body{
+  margin: 0;
+  font-family: Helvetica;
+  background-color: green;
+  color: white;
+
+
+}
+
+
+
+
+
+
+header{
+  text-align: center;
+  font-family: Bluetea;
+  font-size: 45px;
+}
+
+
+.header_right{
+  display: flex;
+  font-family: Bluetea;
+
+
+}
+
+img{
+  width: 500px;
+  display: flex;
+display: block;
+margin: auto;
+
+}
+
+
+
+
+.navbar{
+    display: flex;
+
+    padding: 0;
+    padding-left:0;
+    justify-content: space-between;
+    margin: 0 auto;
+
+
+}
+
+nav li{
+  list-style-type: none;
+  display: flex;
+  margin: auto;
+}
+
+nav ul{
+  justify-content: space-between;
+  display: flex;
+  margin: auto;
+  padding-left: 0;
+
+
+
+
+}
+nav a{
+  color: white;
+  padding: 5px;
+
+}
+
+div.internal_content{
+  text-align: center;
+  
+}
+
+.about_button{
+  width: 200px;
+
+}
